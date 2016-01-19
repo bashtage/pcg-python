@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.noncentral_chisquare
+===========================================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: noncentral_chisquare

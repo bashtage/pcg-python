@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.logistic
+===============================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: logistic

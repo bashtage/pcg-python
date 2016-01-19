@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.shuffle
+================================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: shuffle

@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.permutation
+====================================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: permutation

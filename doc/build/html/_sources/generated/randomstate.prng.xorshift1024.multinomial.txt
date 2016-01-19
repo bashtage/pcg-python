@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.multinomial
+=========================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: multinomial

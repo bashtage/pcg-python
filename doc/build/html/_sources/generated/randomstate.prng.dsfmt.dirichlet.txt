@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.dirichlet
+================================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: dirichlet

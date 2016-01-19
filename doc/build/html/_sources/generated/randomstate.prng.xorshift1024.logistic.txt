@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.logistic
+======================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: logistic

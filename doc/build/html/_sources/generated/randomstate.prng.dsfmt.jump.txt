@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.jump
+===========================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: jump

@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.gumbel
+===============================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: gumbel

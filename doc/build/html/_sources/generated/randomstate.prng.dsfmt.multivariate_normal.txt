@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.multivariate_normal
+==========================================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: multivariate_normal

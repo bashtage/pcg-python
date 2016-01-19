@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.binomial
+=====================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: binomial

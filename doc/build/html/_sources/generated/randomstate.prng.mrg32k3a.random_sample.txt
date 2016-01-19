@@ -1,0 +1,6 @@
+randomstate.prng.mrg32k3a.random_sample
+=======================================
+
+.. currentmodule:: randomstate.prng.mrg32k3a
+
+.. autofunction:: random_sample

@@ -1,0 +1,6 @@
+randomstate.prng.mlfg_1279_861.seed
+===================================
+
+.. currentmodule:: randomstate.prng.mlfg_1279_861
+
+.. autofunction:: seed

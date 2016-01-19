@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.rayleigh
+======================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: rayleigh

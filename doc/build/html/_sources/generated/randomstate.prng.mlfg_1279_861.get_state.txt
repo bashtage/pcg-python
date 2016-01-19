@@ -1,0 +1,6 @@
+randomstate.prng.mlfg_1279_861.get_state
+========================================
+
+.. currentmodule:: randomstate.prng.mlfg_1279_861
+
+.. autofunction:: get_state

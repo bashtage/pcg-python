@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.rayleigh
+===============================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: rayleigh

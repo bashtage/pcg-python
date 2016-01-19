@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.choice
+====================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: choice

@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.beta
+===========================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: beta

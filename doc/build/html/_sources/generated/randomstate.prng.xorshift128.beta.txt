@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.beta
+=================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: beta

@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.beta
+===========================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: beta

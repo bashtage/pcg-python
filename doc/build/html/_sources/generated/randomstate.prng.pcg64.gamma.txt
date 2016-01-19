@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.gamma
+============================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: gamma

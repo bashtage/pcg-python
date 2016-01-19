@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.permutation
+========================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: permutation

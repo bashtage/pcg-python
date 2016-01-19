@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.multivariate_normal
+============================================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: multivariate_normal

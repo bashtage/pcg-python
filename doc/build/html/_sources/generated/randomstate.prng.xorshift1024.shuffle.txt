@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.shuffle
+=====================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: shuffle

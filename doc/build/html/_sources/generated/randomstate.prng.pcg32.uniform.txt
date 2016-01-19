@@ -1,0 +1,6 @@
+randomstate.prng.pcg32.uniform
+==============================
+
+.. currentmodule:: randomstate.prng.pcg32
+
+.. autofunction:: uniform

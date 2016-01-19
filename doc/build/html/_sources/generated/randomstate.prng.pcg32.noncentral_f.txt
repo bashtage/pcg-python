@@ -1,0 +1,6 @@
+randomstate.prng.pcg32.noncentral_f
+===================================
+
+.. currentmodule:: randomstate.prng.pcg32
+
+.. autofunction:: noncentral_f

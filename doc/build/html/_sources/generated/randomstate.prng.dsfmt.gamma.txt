@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.gamma
+============================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: gamma

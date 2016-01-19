@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.permutation
+==================================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: permutation

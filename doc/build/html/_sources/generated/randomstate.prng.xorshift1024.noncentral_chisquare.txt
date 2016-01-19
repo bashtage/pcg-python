@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.noncentral_chisquare
+==================================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: noncentral_chisquare

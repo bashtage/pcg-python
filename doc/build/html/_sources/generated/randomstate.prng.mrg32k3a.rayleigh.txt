@@ -1,0 +1,6 @@
+randomstate.prng.mrg32k3a.rayleigh
+==================================
+
+.. currentmodule:: randomstate.prng.mrg32k3a
+
+.. autofunction:: rayleigh

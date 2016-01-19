@@ -1,0 +1,6 @@
+randomstate.prng.mrg32k3a.zipf
+==============================
+
+.. currentmodule:: randomstate.prng.mrg32k3a
+
+.. autofunction:: zipf

@@ -1,0 +1,6 @@
+randomstate.prng.mrg32k3a.standard_normal
+=========================================
+
+.. currentmodule:: randomstate.prng.mrg32k3a
+
+.. autofunction:: standard_normal

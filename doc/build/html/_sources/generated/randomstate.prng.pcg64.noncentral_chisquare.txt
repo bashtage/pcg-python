@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.noncentral_chisquare
+===========================================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: noncentral_chisquare

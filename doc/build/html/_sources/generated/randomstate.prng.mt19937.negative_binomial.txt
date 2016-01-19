@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.negative_binomial
+==========================================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: negative_binomial

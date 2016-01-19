@@ -1,0 +1,6 @@
+randomstate.prng.mlfg_1279_861.standard_t
+=========================================
+
+.. currentmodule:: randomstate.prng.mlfg_1279_861
+
+.. autofunction:: standard_t

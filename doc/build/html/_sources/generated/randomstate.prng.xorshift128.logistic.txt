@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.logistic
+=====================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: logistic

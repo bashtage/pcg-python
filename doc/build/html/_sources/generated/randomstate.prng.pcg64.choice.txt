@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.choice
+=============================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: choice

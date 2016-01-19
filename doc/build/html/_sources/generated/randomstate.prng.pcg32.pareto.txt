@@ -1,0 +1,6 @@
+randomstate.prng.pcg32.pareto
+=============================
+
+.. currentmodule:: randomstate.prng.pcg32
+
+.. autofunction:: pareto

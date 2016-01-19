@@ -1,0 +1,6 @@
+randomstate.prng.mlfg_1279_861.geometric
+========================================
+
+.. currentmodule:: randomstate.prng.mlfg_1279_861
+
+.. autofunction:: geometric

@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.noncentral_f
+==========================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: noncentral_f

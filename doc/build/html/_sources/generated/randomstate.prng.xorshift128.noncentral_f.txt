@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.noncentral_f
+=========================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: noncentral_f

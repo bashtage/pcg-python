@@ -1,0 +1,6 @@
+randomstate.prng.pcg32.poisson
+==============================
+
+.. currentmodule:: randomstate.prng.pcg32
+
+.. autofunction:: poisson

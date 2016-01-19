@@ -1,0 +1,6 @@
+randomstate.prng.mlfg_1279_861.exponential
+==========================================
+
+.. currentmodule:: randomstate.prng.mlfg_1279_861
+
+.. autofunction:: exponential

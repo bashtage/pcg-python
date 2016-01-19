@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.standard_t
+=================================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: standard_t

@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.normal
+===============================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: normal

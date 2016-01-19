@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.triangular
+=======================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: triangular

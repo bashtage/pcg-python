@@ -1,0 +1,6 @@
+randomstate.prng.pcg32.gumbel
+=============================
+
+.. currentmodule:: randomstate.prng.pcg32
+
+.. autofunction:: gumbel

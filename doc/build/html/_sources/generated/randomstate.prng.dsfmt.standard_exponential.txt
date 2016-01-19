@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.standard_exponential
+===========================================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: standard_exponential

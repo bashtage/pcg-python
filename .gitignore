@@ -4,6 +4,5 @@ pcg.c
 pcg-c-0.94
 *.o
 pcg/core-rng
-build
 dist
 *.egg-info

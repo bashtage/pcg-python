@@ -1,0 +1,6 @@
+randomstate.prng.mrg32k3a.multivariate_normal
+=============================================
+
+.. currentmodule:: randomstate.prng.mrg32k3a
+
+.. autofunction:: multivariate_normal

@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.gumbel
+=============================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: gumbel

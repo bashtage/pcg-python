@@ -1,0 +1,6 @@
+randomstate.prng.mrg32k3a.noncentral_chisquare
+==============================================
+
+.. currentmodule:: randomstate.prng.mrg32k3a
+
+.. autofunction:: noncentral_chisquare

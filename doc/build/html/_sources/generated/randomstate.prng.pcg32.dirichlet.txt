@@ -1,0 +1,6 @@
+randomstate.prng.pcg32.dirichlet
+================================
+
+.. currentmodule:: randomstate.prng.pcg32
+
+.. autofunction:: dirichlet

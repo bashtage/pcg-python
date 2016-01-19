@@ -1,0 +1,6 @@
+randomstate.prng.pcg32.logistic
+===============================
+
+.. currentmodule:: randomstate.prng.pcg32
+
+.. autofunction:: logistic

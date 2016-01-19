@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.wald
+==================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: wald

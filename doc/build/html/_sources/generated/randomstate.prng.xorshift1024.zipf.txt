@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.zipf
+==================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: zipf

@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.gumbel
+====================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: gumbel

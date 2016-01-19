@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.lognormal
+================================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: lognormal

@@ -1,0 +1,6 @@
+randomstate.prng.pcg32.triangular
+=================================
+
+.. currentmodule:: randomstate.prng.pcg32
+
+.. autofunction:: triangular

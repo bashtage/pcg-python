@@ -1,0 +1,6 @@
+randomstate.prng.mrg32k3a.laplace
+=================================
+
+.. currentmodule:: randomstate.prng.mrg32k3a
+
+.. autofunction:: laplace

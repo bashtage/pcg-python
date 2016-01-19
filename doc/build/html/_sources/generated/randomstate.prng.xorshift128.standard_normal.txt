@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.standard_normal
+============================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: standard_normal

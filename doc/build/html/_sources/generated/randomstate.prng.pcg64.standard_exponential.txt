@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.standard_exponential
+===========================================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: standard_exponential

@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.multinomial
+==================================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: multinomial

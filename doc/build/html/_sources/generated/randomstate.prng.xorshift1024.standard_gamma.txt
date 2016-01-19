@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.standard_gamma
+============================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: standard_gamma

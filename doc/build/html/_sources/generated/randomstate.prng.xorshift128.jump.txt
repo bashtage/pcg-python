@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.jump
+=================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: jump

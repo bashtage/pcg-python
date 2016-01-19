@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.logseries
+================================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: logseries

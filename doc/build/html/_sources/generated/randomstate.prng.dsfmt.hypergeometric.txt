@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.hypergeometric
+=====================================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: hypergeometric

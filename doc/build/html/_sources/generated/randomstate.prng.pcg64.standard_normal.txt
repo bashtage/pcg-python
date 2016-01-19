@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.standard_normal
+======================================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: standard_normal

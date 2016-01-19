@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.vonmises
+======================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: vonmises

@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.noncentral_f
+=====================================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: noncentral_f

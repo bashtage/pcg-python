@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.binomial
+===============================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: binomial

@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.get_state
+======================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: get_state

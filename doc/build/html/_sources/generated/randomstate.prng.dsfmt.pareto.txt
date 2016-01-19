@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.pareto
+=============================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: pareto

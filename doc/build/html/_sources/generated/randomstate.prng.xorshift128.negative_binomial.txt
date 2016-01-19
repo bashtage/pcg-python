@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.negative_binomial
+==============================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: negative_binomial

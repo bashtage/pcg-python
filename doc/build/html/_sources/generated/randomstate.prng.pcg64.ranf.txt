@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.ranf
+===========================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: ranf

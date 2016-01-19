@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.logseries
+======================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: logseries

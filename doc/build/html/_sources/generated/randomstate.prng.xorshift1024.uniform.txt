@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.uniform
+=====================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: uniform

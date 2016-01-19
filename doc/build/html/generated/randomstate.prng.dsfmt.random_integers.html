@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>randomstate.prng.dsfmt.random_integers &mdash; randomstate 0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.3.4/yeti/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/style-changes.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="randomstate 0 documentation" href="../index.html" />
+    <link rel="up" title="dSFMT Randomstate" href="../dsfmt.html" />
+    <link rel="next" title="randomstate.prng.dsfmt.random_sample" href="randomstate.prng.dsfmt.random_sample.html" />
+    <link rel="prev" title="randomstate.prng.dsfmt.randint" href="randomstate.prng.dsfmt.randint.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+          randomstate</a>
+        <span class="navbar-text navbar-version pull-left"><b>1.10</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../mt19937.html">MT19937</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../dsfmt.html">dSFMT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../xorshift128.html">XorShift128+</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../xorshift1024.html">XorShift1024*</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pcg32.html">PCG-32</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pcg64.html">PCG-64</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mlfg.html">MLFG</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mrg32k3a.html">MRG32K3A</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../entropy.html">Reading System Entropy</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">randomstate.prng.dsfmt.random_integers</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../_sources/generated/randomstate.prng.dsfmt.random_integers.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="randomstate-prng-dsfmt-random-integers">
+<h1>randomstate.prng.dsfmt.random_integers<a class="headerlink" href="#randomstate-prng-dsfmt-random-integers" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="randomstate.prng.dsfmt.random_integers">
+<code class="descclassname">randomstate.prng.dsfmt.</code><code class="descname">random_integers</code><span class="sig-paren">(</span><em>low</em>, <em>high=None</em>, <em>size=None</em><span class="sig-paren">)</span><a class="headerlink" href="#randomstate.prng.dsfmt.random_integers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Random integers of type np.int between <cite>low</cite> and <cite>high</cite>, inclusive.</p>
+<p>Return random integers of type np.int from the &#8220;discrete uniform&#8221;
+distribution in the closed interval [<cite>low</cite>, <cite>high</cite>].  If <cite>high</cite> is
+None (the default), then results are from [1, <cite>low</cite>]. The np.int
+type translates to the C long type used by Python 2 for &#8220;short&#8221;
+integers and its precision is platform dependent.</p>
+<p>This function has been deprecated. Use randint instead.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.11.0.</span></p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>low</strong> (<em>int</em>) &#8211; Lowest (signed) integer to be drawn from the distribution (unless
+<code class="docutils literal"><span class="pre">high=None</span></code>, in which case this parameter is the <em>highest</em> such
+integer).</li>
+<li><strong>high</strong> (<em>int, optional</em>) &#8211; If provided, the largest (signed) integer to be drawn from the
+distribution (see above for behavior if <code class="docutils literal"><span class="pre">high=None</span></code>).</li>
+<li><strong>size</strong> (<em>int or tuple of ints, optional</em>) &#8211; Output shape.  If the given shape is, e.g., <code class="docutils literal"><span class="pre">(m,</span> <span class="pre">n,</span> <span class="pre">k)</span></code>, then
+<code class="docutils literal"><span class="pre">m</span> <span class="pre">*</span> <span class="pre">n</span> <span class="pre">*</span> <span class="pre">k</span></code> samples are drawn.  Default is None, in which case a
+single value is returned.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>out</strong> &#8211;
+<cite>size</cite>-shaped array of random integers from the appropriate
+distribution, or a single such random int if <cite>size</cite> not provided.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">int or ndarray of ints</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><code class="xref py py-func docutils literal"><span class="pre">random.randint()</span></code></dt>
+<dd>Similar to <cite>random_integers</cite>, only for the half-open interval [<cite>low</cite>, <cite>high</cite>), and 0 is the lowest value if <cite>high</cite> is omitted.</dd>
+</dl>
+</div>
+<p class="rubric">Notes</p>
+<p>To sample from N evenly spaced floating-point numbers between a and b,
+use:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">a</span> <span class="o">+</span> <span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="n">N</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">N</span> <span class="o">-</span> <span class="mf">1.</span><span class="p">)</span>
+</pre></div>
+</div>
+<p class="rubric">Examples</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="go">4</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+<span class="go">&lt;type &#39;int&#39;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mf">3.</span><span class="p">,</span><span class="mf">2.</span><span class="p">))</span>
+<span class="go">array([[5, 4],</span>
+<span class="go">       [3, 3],</span>
+<span class="go">       [4, 5]])</span>
+</pre></div>
+</div>
+<p>Choose five random numbers from the set of five evenly-spaced
+numbers between 0 and 2.5, inclusive (<em>i.e.</em>, from the set
+<span class="math">\({0, 5/8, 10/8, 15/8, 20/8}\)</span>):</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="mf">2.5</span> <span class="o">*</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,))</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mf">4.</span>
+<span class="go">array([ 0.625,  1.25 ,  0.625,  0.625,  2.5  ])</span>
+</pre></div>
+</div>
+<p>Roll two six sided dice 1000 times and sum the results:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">d1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">d2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random_integers</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dsums</span> <span class="o">=</span> <span class="n">d1</span> <span class="o">+</span> <span class="n">d2</span>
+</pre></div>
+</div>
+<p>Display results as a histogram:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">count</span><span class="p">,</span> <span class="n">bins</span><span class="p">,</span> <span class="n">ignored</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">dsums</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="n">normed</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Kevin Sheppard.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

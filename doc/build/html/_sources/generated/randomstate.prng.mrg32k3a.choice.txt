@@ -1,0 +1,6 @@
+randomstate.prng.mrg32k3a.choice
+================================
+
+.. currentmodule:: randomstate.prng.mrg32k3a
+
+.. autofunction:: choice

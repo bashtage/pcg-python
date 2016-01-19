@@ -1,0 +1,6 @@
+randomstate.prng.dsfmt.ranf
+===========================
+
+.. currentmodule:: randomstate.prng.dsfmt
+
+.. autofunction:: ranf

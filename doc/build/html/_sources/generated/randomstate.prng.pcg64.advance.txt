@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.advance
+==============================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: advance

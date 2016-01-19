@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.laplace
+=====================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: laplace

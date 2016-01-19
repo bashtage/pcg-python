@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.sample
+====================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: sample

@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.standard_cauchy
+========================================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: standard_cauchy

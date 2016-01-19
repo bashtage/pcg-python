@@ -1,0 +1,6 @@
+randomstate.prng.pcg32.set_state
+================================
+
+.. currentmodule:: randomstate.prng.pcg32
+
+.. autofunction:: set_state

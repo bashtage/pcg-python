@@ -1,0 +1,6 @@
+randomstate.prng.xorshift1024.multivariate_normal
+=================================================
+
+.. currentmodule:: randomstate.prng.xorshift1024
+
+.. autofunction:: multivariate_normal

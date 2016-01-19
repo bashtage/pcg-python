@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>randomstate.prng.xorshift128.logseries &mdash; randomstate 0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.3.4/yeti/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/style-changes.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="randomstate 0 documentation" href="../index.html" />
+    <link rel="up" title="XorShift128+ Randomstate" href="../xorshift128.html" />
+    <link rel="next" title="randomstate.prng.xorshift128.multinomial" href="randomstate.prng.xorshift128.multinomial.html" />
+    <link rel="prev" title="randomstate.prng.xorshift128.lognormal" href="randomstate.prng.xorshift128.lognormal.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+          randomstate</a>
+        <span class="navbar-text navbar-version pull-left"><b>1.10</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../mt19937.html">MT19937</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dsfmt.html">dSFMT</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../xorshift128.html">XorShift128+</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../xorshift1024.html">XorShift1024*</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pcg32.html">PCG-32</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pcg64.html">PCG-64</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mlfg.html">MLFG</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mrg32k3a.html">MRG32K3A</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../entropy.html">Reading System Entropy</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">randomstate.prng.xorshift128.logseries</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../_sources/generated/randomstate.prng.xorshift128.logseries.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="randomstate-prng-xorshift128-logseries">
+<h1>randomstate.prng.xorshift128.logseries<a class="headerlink" href="#randomstate-prng-xorshift128-logseries" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="randomstate.prng.xorshift128.logseries">
+<code class="descclassname">randomstate.prng.xorshift128.</code><code class="descname">logseries</code><span class="sig-paren">(</span><em>p</em>, <em>size=None</em><span class="sig-paren">)</span><a class="headerlink" href="#randomstate.prng.xorshift128.logseries" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw samples from a logarithmic series distribution.</p>
+<p>Samples are drawn from a log series distribution with specified
+shape parameter, 0 &lt; <code class="docutils literal"><span class="pre">p</span></code> &lt; 1.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>loc</strong> (<em>float</em>) &#8211; </li>
+<li><strong>scale</strong> (<em>float &gt; 0.</em>) &#8211; </li>
+<li><strong>size</strong> (<em>int or tuple of ints, optional</em>) &#8211; Output shape.  If the given shape is, e.g., <code class="docutils literal"><span class="pre">(m,</span> <span class="pre">n,</span> <span class="pre">k)</span></code>, then
+<code class="docutils literal"><span class="pre">m</span> <span class="pre">*</span> <span class="pre">n</span> <span class="pre">*</span> <span class="pre">k</span></code> samples are drawn.  Default is None, in which case a
+single value is returned.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>samples</strong> &#8211;
+where the values are all integers in  [0, n].</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ndarray or scalar</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><code class="xref py py-func docutils literal"><span class="pre">scipy.stats.distributions.logser()</span></code></dt>
+<dd>probability density function, distribution or cumulative density function, etc.</dd>
+</dl>
+</div>
+<p class="rubric">Notes</p>
+<p>The probability density for the Log Series distribution is</p>
+<div class="math">
+\[P(k) = \frac{-p^k}{k \ln(1-p)},\]</div>
+<p>where p = probability.</p>
+<p>The log series distribution is frequently used to represent species
+richness and occurrence, first proposed by Fisher, Corbet, and
+Williams in 1943 [2].  It may also be used to model the numbers of
+occupants seen in cars [3].</p>
+<p class="rubric">References</p>
+<table class="docutils footnote" frame="void" id="id1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td>Buzas, Martin A.; Culver, Stephen J.,  Understanding regional
+species diversity through the log series distribution of
+occurrences: BIODIVERSITY RESEARCH Diversity &amp; Distributions,
+Volume 5, Number 5, September 1999 , pp. 187-195(9).</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[2]</td><td>Fisher, R.A,, A.S. Corbet, and C.B. Williams. 1943. The
+relation between the number of species and the number of
+individuals in a random sample of an animal population.
+Journal of Animal Ecology, 12:42-58.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id3" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[3]</td><td>D. J. Hand, F. Daly, D. Lunn, E. Ostrowski, A Handbook of Small
+Data Sets, CRC Press, 1994.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id4" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[4]</td><td>Wikipedia, &#8220;Logarithmic-distribution&#8221;,
+<a class="reference external" href="http://en.wikipedia.org/wiki/Logarithmic-distribution">http://en.wikipedia.org/wiki/Logarithmic-distribution</a></td></tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<p>Draw samples from the distribution:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="o">.</span><span class="mi">6</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">logseries</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="mi">10000</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">count</span><span class="p">,</span> <span class="n">bins</span><span class="p">,</span> <span class="n">ignored</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>#   plot against distribution</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">logseries</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">p</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="k">return</span> <span class="o">-</span><span class="n">p</span><span class="o">**</span><span class="n">k</span><span class="o">/</span><span class="p">(</span><span class="n">k</span><span class="o">*</span><span class="n">log</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">p</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">bins</span><span class="p">,</span> <span class="n">logseries</span><span class="p">(</span><span class="n">bins</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span><span class="o">*</span><span class="n">count</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">/</span>
+<span class="go">             logseries(bins, a).max(), &#39;r&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Kevin Sheppard.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

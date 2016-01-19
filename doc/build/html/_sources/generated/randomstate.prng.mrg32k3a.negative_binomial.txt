@@ -1,0 +1,6 @@
+randomstate.prng.mrg32k3a.negative_binomial
+===========================================
+
+.. currentmodule:: randomstate.prng.mrg32k3a
+
+.. autofunction:: negative_binomial

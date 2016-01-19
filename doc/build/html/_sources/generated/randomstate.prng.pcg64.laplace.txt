@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.laplace
+==============================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: laplace

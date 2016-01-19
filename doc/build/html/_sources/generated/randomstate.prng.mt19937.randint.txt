@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.randint
+================================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: randint

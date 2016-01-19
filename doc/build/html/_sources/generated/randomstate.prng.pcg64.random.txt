@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.random
+=============================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: random

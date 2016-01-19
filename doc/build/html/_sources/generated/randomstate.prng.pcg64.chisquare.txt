@@ -1,0 +1,6 @@
+randomstate.prng.pcg64.chisquare
+================================
+
+.. currentmodule:: randomstate.prng.pcg64
+
+.. autofunction:: chisquare

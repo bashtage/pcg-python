@@ -1,0 +1,6 @@
+randomstate.prng.xorshift128.standard_exponential
+=================================================
+
+.. currentmodule:: randomstate.prng.xorshift128
+
+.. autofunction:: standard_exponential

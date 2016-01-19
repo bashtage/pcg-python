@@ -1,0 +1,6 @@
+randomstate.prng.mt19937.ranf
+=============================
+
+.. currentmodule:: randomstate.prng.mt19937
+
+.. autofunction:: ranf
